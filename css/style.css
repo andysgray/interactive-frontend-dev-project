@@ -1,0 +1,155 @@
+body {
+   background-color: #e7e7e7;
+}
+
+
+.navbar-default {
+    background-color: #8ac2e4;
+}
+
+.navbar-default .navbar-brand {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.title-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.main-text {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.large-text {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #fafafa;
+}
+
+
+ #map {
+        height: 300px;
+        width: 300px;
+        margin: 30px;
+}
+
+
+
+.article {
+    
+    background: url("../images/rome-img.jpg") no-repeat; 
+    background-size: cover;
+    display: flex;  
+    align-items: center;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.article-2 {
+    
+    background: url("../images/paris-img.jpg") no-repeat; 
+    background-size: cover;
+    display: flex;  
+    align-items: center;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.article-3 {
+    background-color: rgba(7, 15, 14, 0.64);
+    
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+
+.home-banner {
+    text-align: center;
+}
+
+.home-container {
+    height: 600px;
+    background-color: #78b9e1;
+    background: url("../images/polynesia-img.jpg") fixed no-repeat; 
+    background-size: cover;
+    display: flex;  
+    align-items: center;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+}    
+
+
+.footer {
+    background-color: #9bc8c6;
+}
+
+.footer-container {
+    background-color: #8ac2e4;
+}
+
+.list-inline {
+    float: right;
+}
+
+
+
+@media (max-width: 767px) {
+    #map { 
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #map {
+       height: 400px;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1800px) {
+    #map {
+       height: 600px;
+        
+    }
+}
+
+@media (min-width: 1800px) {
+    #map {
+       height: 900px;
+    }
+}
